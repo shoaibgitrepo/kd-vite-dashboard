@@ -1,0 +1,138 @@
+.dashboard-logo {
+    background-image: url(/public/assets/auburn_logo.png);
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+  }
+.logo-image {
+    background-image: url(/public/assets/auburn_logo.png);
+    background-size: cover;
+    width: 80px;
+    height: 80px;
+  }
+
+.bg-login-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 40vh;
+  }
+
+  .login-btn{
+    width: 100%;
+  }
+
+  .login-area{
+    background-color: #dfdfdf !important ;
+  }
+
+  .footer-area{
+    text-align: justify;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+  }
+
+  .footer-area>a{
+    text-decoration: none;
+  }
+
+  .multiple-select{
+    width: 100%;
+  }
+
+  .agreement-label{
+    margin-bottom: 0;
+  }
+
+  .add-admin-btn{
+    text-align: right;
+  }
+
+
+.add-new-user-btn{
+  text-align: right;
+}
+  
+.modal-header{
+  width: 100% !important;
+}
+
+.dashboard-table{
+  overflow-y: auto;
+  overflow: auto;
+}
+
+.dashboard-table>table{
+ white-space: nowrap;
+}
+
+/* .dashboard-table>table>thead{
+  --cui-table-color: #323232 !important;
+  --cui-table-bg: #dfdfdf !important;
+  --cui-table-border-color: var(--cui-border-color);
+} */
+
+.view-files{
+  color: white;
+  background-color: #007e9fba;
+  border: #000203;
+  text-decoration: none;
+}
+.view-leads{
+  color: white;
+  background-color: green;
+  border: green;
+}
+
+.delete-leads{
+  color: white;
+  background-color: tomato;
+  border: tomato;
+}
+.edit-leads{
+  text-decoration: none;
+  color: white;
+  background-color: #5856d6;
+  border: rgb(42, 15, 122);
+}
+
+.lead-popup-table>tbody>tr>td>tr>td{
+  border: 1px solid gray;
+}
+
+.table > :not(caption) > * > * {
+ background-color: #fff0;
+}
+
+.view-lead-row{
+  display: none;
+}
+
+.inactive-status{
+  --cui-btn-padding-y: 0rem;
+  --cui-btn-padding-x: 0.5rem;
+  width: 100%;
+}
+.active-status{
+  --cui-btn-padding-y: 0rem;
+  --cui-btn-padding-x: 0.5rem;
+  width: 100%;
+}
+
+
+.inactive-status-leads{
+  --cui-btn-padding-y: 0rem;
+  --cui-btn-padding-x: 0.5rem;
+   width: 50%;
+}
+.active-status-leads{
+  --cui-btn-padding-y: 0rem;
+  --cui-btn-padding-x: 0.5rem;
+   width: 50%;
+}
+
+.search-name-dashboard{
+  width: 250px !important;
+}
